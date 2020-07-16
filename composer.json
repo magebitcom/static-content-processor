@@ -10,6 +10,14 @@
             "email": "kristofers.ozolins@magebit.com"
         }
     ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magebit\\StaticContentProcessor\\": ""
+        }
+    },
     "require": {
         "divante/magento2-vsbridge-indexer": ">=1.6.0",
         "php": ">=7.1.0"
