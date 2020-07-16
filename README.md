@@ -11,7 +11,7 @@ Automatically converts Magento urls to VSF urls during indexation
         * `cd app/code`
         * `mkdir Magebit`
     * Clone this repo inside `Magebit` directory
-        * git clone 
+        * `git clone git@github.com:magebitcom/static-content-processor.git`
 
 
 ### Usage
