@@ -3,7 +3,7 @@
     <a href="https://packagist.org/packages/magebit/vsbridge-static-content-procesor"><img src="https://img.shields.io/packagist/v/magebit/vsbridge-static-content-procesor" /></a>
 </p>
 
-# Static Content Processor for VSBridnge
+# Static Content Processor for VSBridge
 Automatically converts Magento urls to VSF urls during indexation
 
 ### Installation
