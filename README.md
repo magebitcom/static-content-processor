@@ -1,3 +1,8 @@
+<p align="left">
+    <a href="https://github.com/magebitcom/static-content-processor"><img src="https://img.shields.io/github/v/tag/magebitcom/static-content-processor" /></a>
+    <a href="https://packagist.org/packages/magebit/vsbridge-static-content-procesor"><img src="https://img.shields.io/packagist/v/magebit/vsbridge-static-content-procesor" /></a>
+</p>
+
 # Static Content Processor for VSBridnge
 Automatically converts Magento urls to VSF urls during indexation
 
@@ -51,5 +56,3 @@ class MyModule {
 ## Authors
 
 * **Kristofers Ozoliņš** (kristofers.ozolins@magebit.com)
-
-
