@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Divante\VsbridgeIndexerCms\Model\ContentProcessor">
+        <plugin name="process_static_content" type="Magebit\StaticContentProcessor\Plugin\Model\ContentProcessor" />
+    </type>
+
+    <preference for="Magebit\StaticContentProcessor\Api\ResolverInterface" type="Magebit\StaticContentProcessor\Helper\Resolver" />
+</config>

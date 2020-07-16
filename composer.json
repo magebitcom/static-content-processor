@@ -1,0 +1,17 @@
+{
+    "name": "magebit/vsbridge-static-content-procesor",
+    "description": "Converts magento URL's to VSF during indexation",
+    "license": "MIT",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Kristofers Ozolins",
+            "email": "kristofers.ozolins@magebit.com"
+        }
+    ],
+    "require": {
+        "divante/magento2-vsbridge-indexer": ">=1.6.0",
+        "php": ">=7.1.0"
+    }
+}
