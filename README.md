@@ -33,16 +33,32 @@ You can also use this module as a dependency for your own  module:
 
 use Magebit\StaticContentProcessor\Helper\Resolver;
 
-class MyModule {
+/**
+ * @package MyPackage\MyModule
+ */
+class MyModule
+{
+    /**
+     * @var \Magebit\StaticContentProcessor\Helper\Resolver
+     */
     protected $resolver;
 
-    public function __construct (Resolver $resolver) {
+    /**
+     * @param Resolver $resolver
+     */
+    public function __construct(Resolver $resolver)
+    {
         $this->resolver = $resolver;
     }
 
-    public function example () {
+    /**
+     * Does some content processing
+     * @return string
+     */
+    public function example()
+    {
         // This will convert urls and media urls to vsf urls according to the configuration
-        return $resolver->resolve($this->getSomeStaticContent());
+        return $this->resolver->resolve($this->getSomeStaticContent());
     }
 }
 

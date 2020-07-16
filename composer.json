@@ -1,7 +1,7 @@
 {
     "name": "magebit/vsbridge-static-content-procesor",
     "description": "Converts magento URL's to VSF during indexation",
-    "license": "MIT",
+    "license": "GPL-3.0-only",
     "type": "magento2-component",
     "version": "1.0.0",
     "authors": [
