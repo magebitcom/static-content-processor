@@ -69,6 +69,5 @@ class MyModule
 
 ![Magebit](https://magebit.com/img/magebit-logo-2x.png)
 
-## Authors
+*Have questions or need help? Contact us at info@magebit.com*
 
-* **Kristofers Ozoliņš** (kristofers.ozolins@magebit.com)
