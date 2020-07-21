@@ -6,8 +6,7 @@
     "version": "1.0.0",
     "authors": [
         {
-            "name": "Kristofers Ozolins",
-            "email": "kristofers.ozolins@magebit.com"
+            "name": "Kristofers Ozolins"
         }
     ],
     "autoload": {
