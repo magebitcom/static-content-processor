@@ -6,7 +6,7 @@
 # Static Content Processor for VSBridge
 Automatically converts Magento urls to VSF urls during indexation
 
-### Installation
+## Installation
 
 * Via composer
     Run `composer require magebit/vsbridge-static-content-procesor` in your root magento directory
@@ -19,7 +19,7 @@ Automatically converts Magento urls to VSF urls during indexation
         * `git clone git@github.com:magebitcom/static-content-processor.git`
 
 
-### Usage
+## Usage
 #### Standalone
 This module requires you to configure VSF and VSF media urls.   
 You can find these configuration fields in:
@@ -64,6 +64,13 @@ class MyModule
 
 
 ```
+
+## Contributing
+Found a bug, have a feature suggestion or just want to help in general?
+Contributions are very welcome! Check out the [list of active issues](https://github.com/magebitcom/vsf-instagram-feed/issues) or submit one yourself.
+
+If you're making a bug report, please include as much details as you can and preferably steps to repreduce the issue.
+When creating Pull Requests, don't for get to list your changes in the [CHANGELOG](/CHANGELOG.md) and [README](/README.md) files.
 
 ---
 
