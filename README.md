@@ -25,6 +25,9 @@ This module requires you to configure VSF and VSF media urls.
 You can find these configuration fields in:
 `Store - Configuration - VueStorefront - Indexer - Static Content Processor`
 
+You can also specify which category and product attributes to run through the processor. As an example, you
+could select product `description` attribute and all the links and images will be converted with VSF urls.
+
 #### As a dependency
 
 You can also use this module as a dependency for your own  module:

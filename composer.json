@@ -3,7 +3,7 @@
     "description": "Converts magento URL's to VSF during indexation",
     "license": "GPL-3.0-only",
     "type": "magento2-component",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "authors": [
         {
             "name": "Kristofers Ozolins"
@@ -18,7 +18,8 @@
         }
     },
     "require": {
-        "divante/magento2-vsbridge-indexer": ">=1.6.0",
-        "php": ">=7.1.0"
+        "divante/magento2-vsbridge-indexer": ">=2.0.0",
+        "symfony/property-access": "^3.4||^4.4||^5.0",
+        "php": ">=7.3.0"
     }
 }
