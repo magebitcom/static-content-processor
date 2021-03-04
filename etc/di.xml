@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Divante\VsbridgeIndexerCore\Index\DataProviderResolver">
+        <arguments>
+            <argument name="dataProviders" xsi:type="array">
+                <item name="category" xsi:type="array">
+                    <item name="wysiwyg_block_data_category" xsi:type="object">Magebit\StaticContentProcessor\Model\Indexer\DataProvider\Category\WysiwygBlockData</item>
+                </item>
+                <item name="product" xsi:type="array">
+                    <item name="wysiwyg_block_data_product" xsi:type="object">Magebit\StaticContentProcessor\Model\Indexer\DataProvider\Product\WysiwygBlockData</item>
+                </item>
+            </argument>
+        </arguments>
+    </type>
+
     <type name="Divante\VsbridgeIndexerCms\Model\ContentProcessor">
         <plugin name="process_static_content" type="Magebit\StaticContentProcessor\Plugin\Model\ContentProcessor" />
     </type>
