@@ -25,6 +25,11 @@
                     <can_be_empty>1</can_be_empty>
                     <comment>Select attributes to run through CMS content parser/filter. For example, wysiwyg attributes</comment>
                 </field>
+                <field id="parse_category_media" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Convert Category Image Attribute Url</label>
+                    <comment>Converts Category Image URLs to VSF during indexation.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
                 <field id="enabled" translate="label comment" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Enable URL Rewrites for all content</label>
                     <comment>Converts magento URLs to VSF during indexation.</comment>

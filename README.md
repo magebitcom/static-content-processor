@@ -28,6 +28,8 @@ You can find these configuration fields in:
 You can also specify which category and product attributes to run through the processor. As an example, you
 could select product `description` attribute and all the links and images will be converted with VSF urls.
 
+You can also enable Category Image attribute url processor. It will convert all category attributes as image to VSF urls.
+
 #### As a dependency
 
 You can also use this module as a dependency for your own  module:

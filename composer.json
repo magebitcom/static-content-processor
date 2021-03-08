@@ -3,7 +3,7 @@
     "description": "Converts magento URL's to VSF during indexation",
     "license": "GPL-3.0-only",
     "type": "magento2-component",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "authors": [
         {
             "name": "Kristofers Ozolins"

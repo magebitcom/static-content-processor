@@ -5,6 +5,7 @@
             <argument name="dataProviders" xsi:type="array">
                 <item name="category" xsi:type="array">
                     <item name="wysiwyg_block_data_category" xsi:type="object">Magebit\StaticContentProcessor\Model\Indexer\DataProvider\Category\WysiwygBlockData</item>
+                    <item name="image_url_category" xsi:type="object">Magebit\StaticContentProcessor\Model\Indexer\DataProvider\Category\ImageUrlRewrite</item>
                 </item>
                 <item name="product" xsi:type="array">
                     <item name="wysiwyg_block_data_product" xsi:type="object">Magebit\StaticContentProcessor\Model\Indexer\DataProvider\Product\WysiwygBlockData</item>
