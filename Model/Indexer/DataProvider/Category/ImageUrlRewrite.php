@@ -76,8 +76,7 @@ class ImageUrlRewrite implements DataProviderInterface
         if ($rewriteCatMediaUrl) {
             foreach ($indexData as $categoryId => $categoryData) {
                 foreach ($categoryData as $attributeCode => $attribute) {
-
-                   if ($this->checkAttributeIsImage($attributeCode)) {
+                   if ($this->checkAttributeIsImage($attributeCode) && !is_null($attribute)) {
                        $processable[] = [
                            'categoryId' => $categoryId,
                            'attributeId' => $attributeCode,
