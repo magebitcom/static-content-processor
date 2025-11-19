@@ -39,6 +39,11 @@ class WysiwygBlockData implements DataProviderInterface
     private $scopeConfig;
 
     /**
+     * @var GetAttributeCodesByIds
+     */
+    private $getAttributeCodesByIds;
+
+    /**
      * ContentData constructor.
      *
      * @param CmsContentFilter $cmsContentFilter
